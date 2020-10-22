@@ -1,0 +1,21 @@
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header .container {
+  display: flex;
+  align-items: baseline;
+}
+.address {
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.header-tel-link {
+  padding-left: 30px;
+}

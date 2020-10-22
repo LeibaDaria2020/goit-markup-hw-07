@@ -1,0 +1,25 @@
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 90px;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients-link:hover {
+  border-color: var(--hover-color);
+  fill: var(--hover-color);
+}
+.clients-link {
+  /* fill: currentColor; */
+  fill: #afb1b8;
+}
