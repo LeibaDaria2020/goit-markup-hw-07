@@ -1,21 +1,28 @@
+// utils
 @import "./utils/variabels";
 @import "./utils/visually-hidden";
+
+// base
 @import "./base/common";
 @import "./base/container";
-@import "./layout/heder";
-@import "./layout/navigation";
+
+// components
+@import "./components/navigation";
 @import "./components/logo";
 @import "./components/email-tel";
-@import "./layout/hero";
 @import "./components/_modal-batton";
-@import "./layout/adventages";
-@import "./layout/services";
 @import "./components/title";
-@import "./layout/team";
 @import "./components/social-links-white-them";
-@import "./layout/clients";
-@import "./layout/footer";
 @import "./components/form";
 @import "./components/social-links-grey-them";
 @import "./components/submit-button";
-@import "./layout/modal-window";
+@import "./components/modal-window";
+
+// layout
+@import "./layout/heder";
+@import "./layout/hero";
+@import "./layout/adventages";
+@import "./layout/services";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";

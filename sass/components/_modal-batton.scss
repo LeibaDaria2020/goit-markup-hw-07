@@ -6,8 +6,7 @@
   border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  font-family: var(--accent-font);
+  font-family: $accent-font;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -17,7 +16,6 @@
   text-decoration: none;
   text-align: center;
   color: #ffffff;
-  background-color: var(--hover-color);
-
+  background-color: $hover-color;
   cursor: pointer;
 }

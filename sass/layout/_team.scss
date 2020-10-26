@@ -15,7 +15,7 @@
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  color: var($secondary-color);
 }
 
 .member-list-description {
@@ -25,7 +25,7 @@
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var($accent-color);
 }
 
 .box {

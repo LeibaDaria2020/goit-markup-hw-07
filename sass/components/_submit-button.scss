@@ -7,13 +7,13 @@
   height: 50px;
   border-radius: 4px;
   border: none;
-  font-family: var(--accent-font);
+  font-family: $accent-font;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   color: #fff;
   letter-spacing: 0.06em;
-  background-color: var(--hover-color);
+  background-color: $hover-color;
   cursor: pointer;
 }
 

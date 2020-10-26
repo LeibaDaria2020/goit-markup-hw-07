@@ -5,7 +5,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: all 250ms var(--transition-timing-function);
+  transition: all 250ms $transition-timing-function;
 }
 
 .modal {
@@ -32,7 +32,7 @@
 }
 .close-btn:focus,
 .close-btn:hover {
-  fill: #2196f3;
+  fill: $hover-color;
 }
 .is-hidden {
   opacity: 0;
@@ -83,11 +83,11 @@
 .modal-form-input:focus,
 .modal-form-message:focus {
   outline: none;
-  border: 1px solid #2196f3;
+  border: 1px solid $hover-color;
 }
 
 .modal-form-input:focus + .modal-form-svg-icon {
-  fill: #2196f3;
+  fill: $hover-color;
 }
 
 .modal-form-field-wrapper {
@@ -133,7 +133,7 @@
 }
 
 .link-form-policy {
-  color: #2196f3;
+  color: $hover-color;
   margin-bottom: 0px;
 }
 
@@ -149,8 +149,8 @@
 }
 
 .modal-form-policy:checked + .modal-form-policy-label::before {
-  border: #2196f3;
-  background-color: #2196f3;
+  border: $hover-color;
+  background-color: $hover-color;
   background-image: url(../images/modal-window/icon-check-modal-window.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -172,6 +172,6 @@
   line-height: 1.625;
   letter-spacing: 0.06em;
   color: #fff;
-  background: var(--hover-color);
+  background: $hover-color;
   border-radius: 4px;
 }

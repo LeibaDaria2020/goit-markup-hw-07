@@ -1,18 +1,25 @@
+// utils
 @import "./utils/variabels";
 @import "./utils/visually-hidden";
+
+// base
 @import "./base/common";
 @import "./base/container";
-@import "./layout/heder";
-@import "./layout/navigation";
+
+// components
+@import "./components/navigation";
 @import "./components/logo";
 @import "./components/email-tel";
-@import "./layout/portfolio";
-@import "./layout/portfolio-filters";
-@import "./layout/portfolio-works";
+@import "./components/portfolio-filters";
 @import "./components/card";
-@import "./layout/portfolio-footer";
-@import "./layout/footer";
 @import "./components/form";
 @import "./components/social-links-grey-them";
 @import "./components/submit-button";
-@import "./layout/modal-window";
+@import "./components/modal-window";
+
+// layout
+@import "./layout/heder";
+@import "./layout/portfolio-heder";
+@import "./layout/portfolio-works";
+@import "./layout/portfolio-footer";
+@import "./layout/footer";

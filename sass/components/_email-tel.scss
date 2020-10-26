@@ -1,3 +1,13 @@
+.address {
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
 .header-mail-link,
 .header-tel-link {
   display: flex;
@@ -8,11 +18,12 @@
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
-
-  transition: color 250ms var(--transition-timing-function);
+  color: $accent-color;
+  transition: color 250ms $transition-timing-function;
 }
-
+.header-tel-link {
+  padding-left: 30px;
+}
 .envelope-icon {
   display: block;
   margin-right: 10px;
@@ -33,8 +44,8 @@
 .header-mail-link:focus,
 .header-tel-link:hover,
 .header-tel-link:focus {
-  color: var(--hover-color);
-  fill: var(--hover-color);
+  color: $hover-color;
+  fill: $hover-color;
 }
 
 .navigation-list-link:hover,
