@@ -27,7 +27,7 @@
   background-color: $hover-color;
 }
 
-.icons-networks {
+.networks-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -35,6 +35,6 @@
   transition: fill 250ms $transition-timing-function;
 }
 
-.bg-icons:hover .icons-networks {
+.bg-icons:hover .networks-icon {
   fill: white;
 }

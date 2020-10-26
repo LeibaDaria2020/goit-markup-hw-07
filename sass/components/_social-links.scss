@@ -1,0 +1,102 @@
+// Grey them
+
+.networks {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.networks-title {
+  display: flex;
+  margin-bottom: 21px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-top: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.networks-list {
+  display: flex;
+  width: 44px;
+  height: 44px;
+}
+.networks-item {
+  display: flex;
+  width: 206px;
+  justify-content: space-between;
+}
+
+.networks-icon-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  fill: #fff;
+
+  transition: background-color 250ms $transition-timing-function, fill 250ms $transition-timing-function;
+}
+
+.networks-icon-footer:hover {
+  background: $hover-color;
+  fill: white;
+}
+
+.networks-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.networks-icon:hover {
+  fill: white;
+}
+
+//  White them
+.networks-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  width: 206px;
+}
+
+.networks-list {
+  display: flex;
+  width: 44px;
+  height: 44px;
+}
+.bg-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0px;
+  border-radius: 50px;
+  color: #afb1b8;
+  background-color: #fff;
+  transition: background-color 250ms $transition-timing-function;
+}
+
+.bg-icons:hover {
+  background-color: $hover-color;
+}
+
+.networks-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  transition: fill 250ms $transition-timing-function;
+}
+
+.bg-icons:hover .networks-icon {
+  fill: white;
+}
