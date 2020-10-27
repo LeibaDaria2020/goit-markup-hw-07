@@ -1,19 +1,22 @@
-.works-section {
-  padding-bottom: 94px;
-}
-.works-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-bottom: -15px;
-  margin-top: 0;
-  padding: 0;
-}
-.work-list-item {
-  margin-right: 15px;
-  margin-bottom: 15px;
-  flex-basis: calc((100% - 3 * 15px) / 3);
-  max-width: 370px;
-  cursor: pointer;
+.work {
+  &-section {
+    padding-bottom: 94px;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-top: 0;
+    padding: 0;
+  }
+  &-list-item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    flex-basis: calc((100% - 3 * 15px) / 3);
+    max-width: 370px;
+    cursor: pointer;
+  }
 }

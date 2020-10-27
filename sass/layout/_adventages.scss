@@ -1,58 +1,61 @@
 .advantages {
   padding-top: 94px;
-}
-.advantages-list {
-  display: flex;
-  justify-content: space-between;
-}
-.advantages-list-item::before {
-  content: "";
-  display: block;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  border: 0px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.advantages-list-item:nth-child(1)::before {
-  content: "";
-  background-image: url(../images/advantages/antenna.svg);
-}
 
-.advantages-list-item:nth-child(2)::before {
-  content: "";
-  background-image: url(../images/advantages/clock.svg);
-}
-.advantages-list-item:nth-child(3)::before {
-  content: "";
-  background-image: url(../images/advantages/diagram.svg);
-}
-.advantages-list-item:nth-child(4)::before {
-  content: "";
-  background-image: url(../images/advantages/astronaut.svg);
-}
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.advantages-subtitle {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: $secondary-color;
-}
+  &-list-item {
+    width: 270px;
 
-.advantages-description {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: $accent-color;
-}
+    &::before {
+      content: "";
+      display: block;
+      margin-bottom: 30px;
+      width: 270px;
+      height: 120px;
+      border: 0px;
+      background: #f5f4fa;
+      border-radius: 4px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 
-.advantages-list-item {
-  width: 270px;
+    &:nth-child(1)::before {
+      content: "";
+      background-image: url(../images/advantages/antenna.svg);
+    }
+    &:nth-child(2)::before {
+      content: "";
+      background-image: url(../images/advantages/clock.svg);
+    }
+
+    &:nth-child(3)::before {
+      content: "";
+      background-image: url(../images/advantages/diagram.svg);
+    }
+    &:nth-child(4)::before {
+      content: "";
+      background-image: url(../images/advantages/astronaut.svg);
+    }
+  }
+
+  &-subtitle {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $secondary-color;
+  }
+
+  &-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $accent-color;
+  }
 }

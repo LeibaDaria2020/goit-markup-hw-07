@@ -56,6 +56,31 @@
     }
   }
 
+  &-submit {
+    display: flex;
+    align-items: center;
+    border-style: none;
+    padding: 13px 28px 13px 28px;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    font-family: $accent-font;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #fff;
+    letter-spacing: 0.06em;
+    background-color: $hover-color;
+    cursor: pointer;
+  }
+
+  &-submit-svg {
+    display: flex;
+    fill: #fff;
+    margin-left: 10px;
+  }
+
   &-portfolio-modal-btn {
     border-style: none;
     padding: 6px 22px;
@@ -71,7 +96,6 @@
     color: #fff;
     background: $hover-color;
     border-radius: 4px;
-
     transition: background-color 250ms $transition-timing-function, color 250ms $transition-timing-function;
 
     &:hover,

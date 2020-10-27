@@ -1,24 +1,24 @@
-.clients-list {
-  display: flex;
-  justify-content: space-between;
-}
+.clients {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.clients-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #afb1b8;
-  width: 170px;
-  height: 90px;
-  box-sizing: border-box;
-  border-radius: 4px;
+  &-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
+    width: 170px;
+    height: 90px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: background-color 250ms $transition-timing-function, fill 250ms $transition-timing-function;
 
-  transition: background-color 250ms $transition-timing-function, fill 250ms $transition-timing-function;
-}
-.clients-link:hover {
-  border-color: $hover-color;
-  fill: $hover-color;
-}
-.clients-link {
-  fill: #afb1b8;
+    &:hover {
+      border-color: $hover-color;
+      fill: $hover-color;
+    }
+  }
 }
