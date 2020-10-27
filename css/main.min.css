@@ -621,7 +621,7 @@ body {
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(#212121);
+  color: #212121;
 }
 .member-list-description {
   align-items: center;
@@ -630,7 +630,7 @@ body {
   line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(#757575);
+  color: #757575;
 }
 .box {
   display: flex;
@@ -687,6 +687,7 @@ body {
   display: inline-block;
   margin: 0px;
   padding: 0px;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
