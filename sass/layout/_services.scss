@@ -1,7 +1,8 @@
-.services  {
-  &-list
-  display: flex;
-  justify-content: space-between;
+.services {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
 
   &-img-wrapper {
     position: relative;
@@ -28,11 +29,8 @@
     color: #fff;
     text-transform: uppercase;
   }
-
-
 }
 
- 
 // .title {
 //   margin-bottom: 50px;
 //   font-weight: 700;
