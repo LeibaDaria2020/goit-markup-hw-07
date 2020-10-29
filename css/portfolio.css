@@ -71,8 +71,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation-list-link:hover, .navigation-list-link:focus {
   color: #2196f3;
 }
 
@@ -156,8 +155,7 @@ body {
   align-items: center;
 }
 
-.address-mail-link,
-.address-tel-link {
+.address-mail-link, .address-tel-link {
   display: flex;
   align-items: baseline;
   align-content: center;
@@ -174,10 +172,7 @@ body {
   padding-left: 30px;
 }
 
-.address-mail-link:focus,
-.address-mail-link:hover,
-.address-tel-link:focus,
-.address-tel-link:hover {
+.address-mail-link:focus, .address-mail-link:hover, .address-tel-link:focus, .address-tel-link:hover {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -266,8 +261,7 @@ body {
   cursor: pointer;
 }
 
-.modal-btn-close-btn:focus,
-.modal-btn-close-btn:hover {
+.modal-btn-close-btn:focus, .modal-btn-close-btn:hover {
   fill: #2196f3;
 }
 
@@ -314,8 +308,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-portfolio-modal-btn:hover,
-.modal-btn-portfolio-modal-btn:focus {
+.modal-btn-portfolio-modal-btn:hover, .modal-btn-portfolio-modal-btn:focus {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -350,6 +343,14 @@ body {
   padding: 0;
 }
 
+.work-list-item {
+  margin-right: 15px;
+  margin-bottom: 30px;
+  flex-basis: calc((100% - 3 * 15px) / 3);
+  max-width: 370px;
+  cursor: pointer;
+}
+
 .work-list-img-wrapper {
   position: relative;
   overflow: hidden;
@@ -380,18 +381,6 @@ body {
   visibility: visible;
   overflow: hidden;
   transform: translateY(0%);
-}
-
-.work-section {
-  padding-bottom: 94px;
-}
-
-.work-list-item {
-  margin-right: 15px;
-  margin-bottom: 30px;
-  flex-basis: calc((100% - 3 * 15px) / 3);
-  max-width: 370px;
-  cursor: pointer;
 }
 
 .overlay {
@@ -441,14 +430,12 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input-footer:hover,
-.form-input-footer:focus {
+.form-input-footer:hover, .form-input-footer:focus {
   outline: none;
   border: 1px solid #fff;
 }
 
-.form-input-footer:hover::placeholder,
-.form-input-footer:focus::placeholder {
+.form-input-footer:hover::placeholder, .form-input-footer:focus::placeholder {
   color: #fff;
 }
 
@@ -659,8 +646,7 @@ body {
   transform: translateY(-50%);
 }
 
-.modal-form-policy-label,
-.modal-form-policy-link {
+.modal-form-policy-label, .modal-form-policy-link {
   display: flex;
   align-items: center;
   height: 24px;
@@ -751,8 +737,7 @@ body {
   color: #ffffff;
 }
 
-.footer-mail-item,
-.footer-tel-item {
+.footer-mail-item, .footer-tel-item {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
